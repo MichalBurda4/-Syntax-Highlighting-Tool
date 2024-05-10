@@ -1,2 +1,15 @@
 for i in range(5):
     print(i)
+
+def calculate_square(x):
+    result = x ** 2
+    return result
+
+# Program główny
+if __name__ == "__main__":
+    number = 5
+    squared = calculate_square(number)
+    print(f"The square of {number} is {squared}")
+
+    for i in range(5):
+        print(i)
