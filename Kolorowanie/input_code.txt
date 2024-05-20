@@ -1,0 +1,61 @@
+#Klasy 
+class NumberPrinter:
+    def printNumbers(self , limit):
+        for i in range(limit):
+            print(i)
+
+#while
+count = 0
+while count < 5:   
+    count += 1  
+
+#while True
+while True:
+    # Kod, ktory ma być wykonany co najmniej raz
+    print("Petla wykonana przynajmniej raz")
+    # Sprawdzenie warunku
+    if not warunek:
+        break
+
+
+#if 
+i = 3  
+if i < 5:
+    pass
+
+#pętla for continue i break
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+
+#return
+def dodaj(a):
+    return a
+
+#tablice
+lista = [1, 2, 3, 4, 5]
+lista[2] = 10  # Zmiana trzeciego elementu na 10
+print(lista)
+
+#inkrementacja dekrementacja
+x = 5
+x += 1  # To samo co x = x + 1
+print(x)
+
+#true false 
+a = True
+b = False
+print(a and b)  # Wypisze: False
+print(a or b)   # Wypisze: True
+print(not a)    # Wypisze: False
+
+
+
+
+
